@@ -1,2 +1,5 @@
 flask_basics/__pycache__
 flask_basics/flask_env
+celery-flask/__pycache__
+celery-flask/celenv
+celery-flask/venv

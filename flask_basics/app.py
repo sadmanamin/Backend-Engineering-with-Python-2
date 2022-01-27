@@ -32,6 +32,7 @@ class Todo(db.Model):
 def home():
     return render_template('index.html')
 
+
 @app.route('/todo')
 def todo():
     val = cache.get('todo_data')
@@ -99,3 +100,7 @@ def cache_get(country):
 
 if __name__ == "__main__":
     app.run()
+
+# api - send mail
+# api - show statistics
+# api - total blogs 
